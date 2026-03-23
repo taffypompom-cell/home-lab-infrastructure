@@ -14,3 +14,10 @@ Client could not join domain due to DNS misconfiguration.
 
 ## Result
 Client successfully joined the domain.
+## Commands / Tools Used
+- Server Manager
+- Active Directory Users and Computers
+- DNS Manager
+
+## Result
+Fully functional domain environment with client successfully joined.
