@@ -3,7 +3,9 @@
 ## Overview
 This repository contains my home lab projects focused on IT operations, system administration, networking, and troubleshooting.
 
-All environments are built and tested in my own lab.
+All environments are built and tested in my own lab to simulate real-world IT scenarios.
+
+---
 
 ## Technologies
 - Windows Server
@@ -15,26 +17,40 @@ All environments are built and tested in my own lab.
 - Networking
 - Wireshark
 
+---
+
 ## Projects
 
-### 🔹 OPNsense Firewall Infrastructure
-Configured OPNsense as firewall and gateway with multiple networks (LAN, OPT1).  
-Set up DHCP, DNS and firewall rules.
+### 🔹 [OPNsense Firewall Infrastructure](opnsense-firewall/)
+Configured OPNsense as a firewall and gateway with multiple networks (LAN, OPT1).  
+Set up DHCP, DNS, and firewall rules to control and secure network traffic.
 
-### 🔹 Active Directory Domain Setup
-Installed Windows Server and configured Active Directory Domain Services and DNS.  
-Joined client to domain after troubleshooting DNS issues.
+---
 
-### 🔹 EdgeRouter Configuration
-Configured routing using CLI and verified network connectivity.
+### 🔹 [Active Directory Lab](active-directory/)
+Installed Windows Server and configured Active Directory Domain Services (AD DS) and DNS.  
+Joined client machines to the domain and resolved DNS-related issues.
 
-### 🔹 Rocky Linux Server (in progress)
-Installing and configuring Linux server with networking and SSH access.
+---
+
+### 🔹 [EdgeRouter Configuration](edgerouter/)
+Configured routing using CLI and verified connectivity between multiple networks.  
+Tested and validated network paths and routing behavior.
+
+---
+
+### 🔹 [Rocky Linux Server](rocky-linux/)
+Installed Rocky Linux and configured network settings and SSH access.  
+Performed basic system setup and initial server hardening.
+
+---
 
 ## Troubleshooting Experience
-- Fixed DNS issues preventing domain join :contentReference[oaicite:0]{index=0}  
-- Solved firewall rule blocking internet access :contentReference[oaicite:1]{index=1}  
-- Resolved DHCP configuration problems :contentReference[oaicite:2]{index=2}  
+- Fixed DNS issues preventing domain join  
+- Resolved firewall rule blocking internet access  
+- Resolved DHCP configuration problems  
+
+---
 
 ## Goal
-To work within IT operations, system administration, and infrastructure.
+To build a strong foundation in IT operations, system administration, and infrastructure, and transition into a professional IT role.
